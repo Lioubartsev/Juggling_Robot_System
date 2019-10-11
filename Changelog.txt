@@ -1,0 +1,29 @@
+1.0 LQR and LQG done
+
+0.95
+ROBOT IS JUGGLING WATERFALL! LRQ done!
+
+0.93 
+Added a throw function which is ok for waterfall 1 ball.
+However the system seems to weak to throw high enough for an extra ball.
+
+0.92 
+Patched the motor parameters (they were wrong)
+InvLQR seems to be fully functional and complete.
+
+0.9
+The LM-LQR is now rewritten as a function which closes the LQR loop!
+
+The EE is broken again it seems.
+
+0.81
+- Low level re-tuned
+- LM works?
+- EE fixed and set as subsystem
+
+0.8 
+The "naive" lqr does not work :/
+
+The LM method works internally, however there seems to be something off with the transformation matrix since it does not correlate exactly to the model.
+
+Looking at the response time for the model the low level controllers need to be retuned.
